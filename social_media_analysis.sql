@@ -54,6 +54,7 @@ create table if not exists users
         primary key,
     media_id             int                  not null,
     username             varchar(40)          not null,
+    password             varchar(40)          not null,
     first_name           varchar(50)          null,
     last_name            varchar(50)          null,
     country_of_birth     varchar(50)          null,
